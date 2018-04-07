@@ -15,7 +15,7 @@ A dummy app made with ionic 3
 4. Execute the command to install the dependencies:
   * npm i or npm install
 
-5. Command to build, start the local server, application execution and listening changes.
+5. Command to build, start the local server, application execution and changes listening.
   * ionic serve
   
   
