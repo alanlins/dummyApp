@@ -7,4 +7,118 @@ page-home {
     .line-even {
         background-color: white;
     }
+
+    .color-green-base {
+        color: rgb(52, 160, 15);
+    }
+
+    .back-color-green-base {
+        background-color: rgb(52, 160, 15);
+    }
+
+    .back-color-gray-clear {
+        background-color: #F0F0F0;
+    }
+
+    .icons-size {
+        font-size: 50px; 
+    }
+
+    .icons-text-font-size {
+        font-size: 20px; 
+    }
+
+    .color-gray {
+        color: gray;
+    }
+
+    .color-black {
+        color: black;
+    }
+
+    .table-icons {
+        background-color: #F0F0F0; 
+        width: 100%; 
+        height: 100px;
+    }
+
+    .border-inputs {
+        border: 2px solid rgb(52, 160, 15);
+    }
+
+    .header-grid {
+        color:white; font-weight: bold;
+    }
+
+    .font-bold {
+        font-weight: bold;
+    }
+
+    .buttons-toolbar {
+        padding-top: 10px;
+    }
+
+    .button-logout {
+        margin-right: 70px;
+    }
+
+    .grid-path {
+        margin-left: 15px; width: 350px;
+    }
+
+    .column-path {
+        margin-top: 5px;
+    }
+
+    .icons-td {
+        text-align: right; width: 100px;
+    }
+
+    .icons-td-2 {
+        width: 70px; padding-left: 10px;
+    }
+
+    .icons-td-3 {
+        width: 110px;
+    }
+
+    .icons-td-4 {
+        width: 155px;
+    }
+
+    .icons-td-5 {
+        width: 180px; padding-right: 35px;
+    }
+
+    .float-right {
+        float: right;
+    }
+
+    .float-center {
+        float: center;
+    }
+
+    .div-help {
+        margin-top: 20px; border: 1px solid gray;
+    }
+
+    .but-help {
+        margin-right: 20px;
+    }
+
+    .icon-help {
+        font-size: 100px;
+    }
+
+    .radio-group {
+        margin-top: 5px;
+    }
+
+    .radio-cols {
+        margin-top: 12px;
+    }
+
+    .div-days-week {
+        margin-top: 10px;
+    }
 }
