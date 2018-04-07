@@ -1,0 +1,350 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon style="color: rgb(52, 160, 15);" name="menu"></ion-icon>
+    </button>
+    <ion-title>Dummy App</ion-title>
+    
+    <ion-buttons end>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-1 style="padding-top: 10px;">
+            <ion-icon style="color: green;" name="md-contact"></ion-icon>
+          </ion-col>
+          <ion-col style="padding-top: 10px;">
+            John | 
+          </ion-col>
+          <ion-col>
+            <a class="button button-outline button-positive" style="margin-right: 70px; color: black;">Log out</a>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid style="margin-left: 15px; width: 350px;">
+    <ion-row>
+      <ion-col col-1 style="margin-top: 5px;">
+        <ion-icon name="ios-home" style="color: rgb(52, 160, 15);">
+        </ion-icon>
+      </ion-col>
+      <ion-col col-1 style="margin-top: 5px;">
+        <ion-icon name="ios-arrow-forward" style="color: gray;">
+        </ion-icon>
+      </ion-col>
+      <ion-col col-2>
+        <a class="button button-outline button-positive" style="color: green;">Page 1</a>
+      </ion-col>
+      <ion-col col-1 style="margin-top: 5px;">
+        <ion-icon name="ios-arrow-forward" style="color: gray;">
+        </ion-icon>
+      </ion-col>
+      <ion-col col-3>
+        <a class="button button-outline button-positive" style="color: green;">Breadcrumb</a>
+      </ion-col>
+      <ion-col col-1 style="margin-top: 5px;">
+        <ion-icon name="ios-arrow-forward" style="color: gray;">
+        </ion-icon>
+      </ion-col>
+      <ion-col col-3>
+        <a class="button button-outline button-positive" style="color: black;">Current page</a>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <table style="background-color: #F0F0F0; width: 100%; height: 100px;" padding>
+    <tr>
+      <td style="text-align: right; width: 100px;">
+        <ion-icon class="fa-puzzle-piece" style="font-size: 50px; color: gray;">
+        </ion-icon>
+        
+      </td>
+
+      <td style="width: 70px; padding-left: 10px;">
+        <ion-list no-lines>
+          <div style="font-size: 20px; color: gray; ">
+            Sector
+          </div>
+          <div style="font-size: 20px; font-weight: bold; color: black;">
+            Sports
+          </div> 
+        </ion-list>
+      </td>
+    
+      <td style="text-align: right; width: 100px;">
+        <ion-icon class="fa-futbol-o" style="font-size: 50px; color: gray;">
+        </ion-icon> 
+      </td>
+    
+      <td style="width: 110px;">
+
+        <ion-list no-lines style="float: right;">
+          <div style="font-size: 20px; color: gray;">
+            Sport Type
+          </div>
+          <div style="font-size: 20px; font-weight: bold; color: black;">
+            Bycicles
+          </div>
+        </ion-list>
+      </td>
+
+      <td style="text-align: right; width: 100px;">
+        <ion-icon class="fa-bicycle" style="font-size: 50px; color: gray;">
+          
+        </ion-icon> 
+      </td>
+
+      <td style="width: 155px;">
+
+        <ion-list no-lines style="float: right;">
+          <div style="font-size: 20px; color: gray;">
+            Mode
+          </div>
+          <div style="font-size: 20px; font-weight: bold; color: black;">
+            Mountain Cross
+          </div>
+        </ion-list>
+      </td>
+
+      <td>
+
+      </td>
+    
+      <td style="text-align: right; width: 100px;">
+        <ion-icon class="fa-recycle" style="font-size: 50px; color: rgb(52, 160, 15);">
+          
+        </ion-icon> 
+        
+      </td>
+      <td style="width: 180px; padding-right: 35px;">
+        <ion-list no-lines style="float: right;">
+          <div style="font-size: 20px; color: gray;">
+            Responsability
+          </div>
+          <div style="font-size: 20px; font-weight: bold; color: rgb(52, 160, 15);">
+            Be Green!
+          </div>
+        </ion-list>
+      </td>
+    </tr>
+  </table>
+
+  <div style="margin-top: 20px; border: 1px solid gray;" margin>
+    <ion-toolbar>
+      <ion-title>Help</ion-title>
+      <ion-buttons end>
+        <button ion-button (click)="hide()">
+          <a class="button button-outline button-positive" style="margin-right: 20px; color: rgb(52, 160, 15);">{{ hideTitle }}</a>
+          <ion-icon *ngIf="hideHelp" ios="ios-arrow-round-up" md="md-arrow-round-up" style="color: rgb(52, 160, 15);"></ion-icon>
+          <ion-icon *ngIf="!hideHelp"ios="ios-arrow-round-down" md="md-arrow-round-down" style="color: rgb(52, 160, 15);"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-toolbar>
+
+    <div *ngIf="hideHelp">
+      <ion-grid>
+        <ion-row>
+          <ion-col col-2>
+            <ion-icon class="fa-life-ring" style="font-size: 100px; color: gray;" margin></ion-icon>
+          </ion-col>
+          <ion-col col-10>
+            <label style="color: gray;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <br /><br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <br /><br />
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+
+  <form padding>
+    <h1>
+      User registration
+    </h1>
+    <ion-grid>
+      <ion-row>
+        <ion-col padding col-4>
+          <ion-list>
+            <ion-item>
+              <ion-label style="font-weight: bold; color: black;" stacked>Full name</ion-label>
+              <ion-input type="text" name="fullname" (ionFocus)="focFullname = true" (ionBlur)="focFullname = false" style="border: 2px solid rgb(52, 160, 15);"></ion-input>
+            </ion-item>
+            <ion-item *ngIf="focFullname" style="color: gray;">
+              Instructions to show on input focus
+            </ion-item>
+            <ion-item>
+              <ion-label style="font-weight: bold; color: black;" stacked>E-mail</ion-label>
+              <ion-input type="email" (ionFocus)="focEmail = true" (ionBlur)="focEmail = false" style="border: 2px solid rgb(52, 160, 15);"></ion-input>
+            </ion-item>
+            <ion-item *ngIf="focEmail" style="color: gray;">
+              Instructions to show on input focus
+            </ion-item>
+            <ion-item>
+              <ion-label style="font-weight: bold; color: black;" stacked>City</ion-label>
+              <ion-input type="text" name="city" (ionFocus)="focCity = true" (ionBlur)="focCity = false" style="border: 2px solid rgb(52, 160, 15);"></ion-input>
+            </ion-item>
+            <ion-item *ngIf="focCity" style="color: gray;">
+              Instructions to show on input focus
+            </ion-item>
+          </ion-list>
+        </ion-col>
+        <ion-col padding col-8>
+          <div>
+            <label style="font-weight: bold;">Ride in group?</label>
+            <ion-grid radio-group style="margin-top: 5px;">
+              <ion-row>
+                <ion-col col-1 style="margin-top: 12px;">
+                  <ion-radio color="secondary" value="always" checked></ion-radio>
+                </ion-col>
+                <ion-col col-2>
+                  <ion-label style="color: gray;">Always</ion-label>
+                </ion-col>
+                <ion-col col-1 style="margin-top: 12px;">
+                  <ion-radio color="secondary" value="sometimes"></ion-radio>
+                </ion-col>
+                <ion-col col-2>
+                  <ion-label style="color: gray;">Sometimes</ion-label>
+                </ion-col>
+                <ion-col col-1 style="margin-top: 12px;">
+                  <ion-radio color="secondary" value="never" [disabled]="isDisabled"></ion-radio>
+                </ion-col>
+                <ion-col col-2>
+                  <ion-label style="color: gray;">Never</ion-label>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </div>
+          <div style="margin-top: 10px;">
+            <label style="font-weight: bold;">Days of the week</label>
+            <ion-grid>
+              <ion-row>
+                <ion-col>
+                  <ion-item>
+                    <ion-label style="color: gray;">Sun</ion-label>
+                    <ion-checkbox color="secondary"></ion-checkbox>
+                  </ion-item>
+                </ion-col>
+                <ion-col>
+                  <ion-item>
+                    <ion-label style="color: gray;">Mon</ion-label>
+                    <ion-checkbox color="secondary"></ion-checkbox>
+                  </ion-item>
+                </ion-col>
+                <ion-col>
+                  <ion-item>
+                    <ion-label style="color: gray;">Tue</ion-label>
+                    <ion-checkbox color="secondary"></ion-checkbox>
+                  </ion-item>
+                </ion-col>
+                <ion-col>
+                  <ion-item>
+                    <ion-label style="color: gray;">Wed</ion-label>
+                    <ion-checkbox color="secondary"></ion-checkbox>
+                  </ion-item>
+                </ion-col>
+                <ion-col>
+                  <ion-item>
+                    <ion-label style="color: gray;">Thu</ion-label>
+                    <ion-checkbox color="secondary"></ion-checkbox>
+                  </ion-item>
+                </ion-col>
+                <ion-col>
+                  <ion-item>
+                    <ion-label style="color: gray;">Fri</ion-label>
+                    <ion-checkbox color="secondary"></ion-checkbox>
+                  </ion-item>
+                </ion-col>
+                <ion-col>
+                  <ion-item>
+                    <ion-label style="color: gray;">Sat</ion-label>
+                    <ion-checkbox color="secondary"></ion-checkbox>
+                  </ion-item>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </div>
+          <div>
+            <ion-buttons end>
+              <button ion-button clear style="color: black; background-color: #F0F0F0;">Cancel</button>
+              <button ion-button (click)="addRow()" type="submit" style="background-color: rgb(52, 160, 15);">Save</button>
+            </ion-buttons>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+
+  <div padding>
+    <h1>
+      Bikers
+    </h1>
+
+    <ion-grid>
+      <ion-row style="background-color: rgb(52, 160, 15);" padding>
+        <ion-col>
+          <ion-label style="color:white; font-weight: bold;">
+            Full name
+          </ion-label>
+        </ion-col>
+        <ion-col>
+          <ion-label style="color:white; font-weight: bold;">
+            E-mail
+          </ion-label>
+        </ion-col>
+        <ion-col>
+          <ion-label style="color:white; font-weight: bold;">
+            City
+          </ion-label>
+        </ion-col>
+        <ion-col>
+          <ion-label style="color:white; font-weight: bold;">
+            Ride in group
+          </ion-label>
+        </ion-col>
+        <ion-col>
+          <ion-label style="color:white; font-weight: bold;">
+            Days of the week
+          </ion-label>
+        </ion-col>
+        <ion-col>
+          <ion-label style="color:white; font-weight: bold;">
+            Registration day
+          </ion-label>
+        </ion-col>
+        <ion-col col-1>
+        </ion-col>
+      </ion-row>
+
+      <ion-row *ngFor="let row of rows; let i = index" [class.line-even]="i == 0 || ((i+1) % 2 != 0)" [class.line-odd]="i > 0 && ((i+1) % 2 == 0)" padding (mouseenter)="showIcon(row)" (mouseleave)="hideIcon(row)" [ngClass]="{'touched': touched }">
+        <ion-col>
+          {{ row.fullname }}
+        </ion-col>
+        <ion-col>
+          {{ row.email }}
+        </ion-col>
+        <ion-col>
+          {{ row.city }}
+        </ion-col>
+        <ion-col>
+          {{ row.rideingroup }}
+        </ion-col>
+        <ion-col>
+          {{ row.daysweek }}
+        </ion-col>
+        <ion-col>
+          {{ row.registration }}
+          
+        </ion-col>
+        <ion-col col-1>
+          <ion-icon *ngIf="row.iconVisible" class="fa-trash-o" (click)="removeLine(i)" style="float: center;"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+</ion-content>

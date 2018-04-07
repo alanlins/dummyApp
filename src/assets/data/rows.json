@@ -1,0 +1,50 @@
+[
+  {
+    "fullname" : "James Isaac Neutron",
+    "email" : "neutron@example.com",
+    "city" : "City",
+    "rideingroup" : "Always",
+    "daysweek" : "Every day",
+    "registration" : "13/08/2018 11:29AM"
+  },
+  {
+    "fullname" : "Carl Weezer",
+    "email" : "carl@example.com",
+    "city" : "City",
+    "rideingroup" : "Sometimes",
+    "daysweek" : "Week days",
+    "registration" : "19/04/2019 00:29AM"
+  },
+  {
+    "fullname" : "Cindy Vortex",
+    "email" : "cindyvortex@example.com",
+    "city" : "City",
+    "rideingroup" : "Never",
+    "daysweek" : "Weekends",
+    "registration" : "13/08/2018 11:29AM"
+  },
+  {
+    "fullname" : "Sheen Estevez",
+    "email" : "sheen@example.com",
+    "city" : "City",
+    "rideingroup" : "Sometimes",
+    "daysweek" : "Mon, Wed, Fri",
+    "registration" : "13/08/2018 11:29AM"
+  },
+  {
+    "fullname" : "Libby Folfax",
+    "email" : "folfax2014@example.com",
+    "city" : "City",
+    "rideingroup" : "Sometimes",
+    "daysweek" : "Mon, Tue, Wed",
+    "registration" : "13/08/2018 11:29AM"
+  },
+  {
+    "fullname" : "Nick Dean",
+    "email" : "nickd@example.com",
+    "city" : "City",
+    "rideingroup" : "Always",
+    "daysweek" : "Fri, Sat",
+    "registration" : "13/08/2013 11:29AM"
+  }
+]
