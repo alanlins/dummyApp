@@ -19,9 +19,8 @@ A dummy app made with ionic 3
   * ionic serve
   
   
-_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<=>_<
 
-OPTIONAL
+* OPTIONAL
 
 Its possible to compile and run this application in Android, you just need to have the android developer environment on the computer, plug a smartphone with android on the computer and enable the USB debug smartphone configuration and execute the command: 
   * ionic cordova run android
