@@ -4,7 +4,7 @@ A dummy app made with ionic 3
 1. Install Node JS latest version on this link -> https://nodejs.org/en/
   * I was use 7.7.1
   
-2. Install IonicFramework latest version on this link (open the command prompt of you choice) -> https://ionicframework.com/getting-started
+2. Install IonicFramework latest version on this link (open the command prompt of your choice) -> https://ionicframework.com/getting-started
   * I was use 3.20.0
   * npm install -g ionic
   
