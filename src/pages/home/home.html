@@ -1,21 +1,21 @@
 <ion-header>
   <ion-navbar>
     <button ion-button menuToggle>
-      <ion-icon style="color: rgb(52, 160, 15);" name="menu"></ion-icon>
+      <ion-icon class="color-green-base" name="menu"></ion-icon>
     </button>
     <ion-title>Dummy App</ion-title>
     
     <ion-buttons end>
       <ion-grid>
         <ion-row>
-          <ion-col col-1 style="padding-top: 10px;">
-            <ion-icon style="color: green;" name="md-contact"></ion-icon>
+          <ion-col col-1 class="buttons-toolbar">
+            <ion-icon class="color-green-base" name="md-contact"></ion-icon>
           </ion-col>
-          <ion-col style="padding-top: 10px;">
+          <ion-col class="buttons-toolbar">
             John | 
           </ion-col>
           <ion-col>
-            <a class="button button-outline button-positive" style="margin-right: 70px; color: black;">Log out</a>
+            <a class="button button-outline button-positive color-black button-logout">Log out</a>
           </ion-col>
         </ion-row>
       </ion-grid>
@@ -24,105 +24,92 @@
 </ion-header>
 
 <ion-content>
-  <ion-grid style="margin-left: 15px; width: 350px;">
+  <ion-grid class="grid-path">
     <ion-row>
-      <ion-col col-1 style="margin-top: 5px;">
-        <ion-icon name="ios-home" style="color: rgb(52, 160, 15);">
+      <ion-col col-1 class="column-path">
+        <ion-icon name="ios-home" class="color-green-base">
         </ion-icon>
       </ion-col>
-      <ion-col col-1 style="margin-top: 5px;">
-        <ion-icon name="ios-arrow-forward" style="color: gray;">
+      <ion-col col-1 class="column-path">
+        <ion-icon name="ios-arrow-forward" class="color-gray">
         </ion-icon>
       </ion-col>
       <ion-col col-2>
-        <a class="button button-outline button-positive" style="color: green;">Page 1</a>
+        <a class="button button-outline button-positive color-green-base">Page 1</a>
       </ion-col>
-      <ion-col col-1 style="margin-top: 5px;">
-        <ion-icon name="ios-arrow-forward" style="color: gray;">
+      <ion-col col-1 class="column-path">
+        <ion-icon name="ios-arrow-forward" class="color-gray">
         </ion-icon>
       </ion-col>
       <ion-col col-3>
-        <a class="button button-outline button-positive" style="color: green;">Breadcrumb</a>
+        <a class="button button-outline button-positive color-green-base">Breadcrumb</a>
       </ion-col>
-      <ion-col col-1 style="margin-top: 5px;">
-        <ion-icon name="ios-arrow-forward" style="color: gray;">
+      <ion-col col-1 class="column-path">
+        <ion-icon name="ios-arrow-forward" class="color-gray">
         </ion-icon>
       </ion-col>
       <ion-col col-3>
-        <a class="button button-outline button-positive" style="color: black;">Current page</a>
+        <a class="button button-outline button-positive color-black">Current page</a>
       </ion-col>
     </ion-row>
   </ion-grid>
-  <table style="background-color: #F0F0F0; width: 100%; height: 100px;" padding>
-    <tr>
-      <td style="text-align: right; width: 100px;">
-        <ion-icon class="fa-puzzle-piece" style="font-size: 50px; color: gray;">
-        </ion-icon>
-        
-      </td>
 
-      <td style="width: 70px; padding-left: 10px;">
+  <table class="table-icons" padding>
+    <tr>
+      <td class="icons-td">
+        <ion-icon class="fa-puzzle-piece icons-size color-gray">
+        </ion-icon>
+      </td>
+      <td class="icons-td-2">
         <ion-list no-lines>
-          <div style="font-size: 20px; color: gray; ">
+          <div class="color-gray icons-text-font-size">
             Sector
           </div>
-          <div style="font-size: 20px; font-weight: bold; color: black;">
+          <div class="icons-text-font-size color-black font-bold">
             Sports
           </div> 
         </ion-list>
       </td>
-    
-      <td style="text-align: right; width: 100px;">
-        <ion-icon class="fa-futbol-o" style="font-size: 50px; color: gray;">
+      <td class="icons-td">
+        <ion-icon class="fa-futbol-o icons-size color-gray">
         </ion-icon> 
       </td>
-    
-      <td style="width: 110px;">
-
-        <ion-list no-lines style="float: right;">
-          <div style="font-size: 20px; color: gray;">
+      <td class="icons-td-3">
+        <ion-list no-lines class="float-right">
+          <div class="color-gray icons-text-font-size">
             Sport Type
           </div>
-          <div style="font-size: 20px; font-weight: bold; color: black;">
+          <div class="icons-text-font-size color-black font-bold">
             Bycicles
           </div>
         </ion-list>
       </td>
-
-      <td style="text-align: right; width: 100px;">
-        <ion-icon class="fa-bicycle" style="font-size: 50px; color: gray;">
-          
+      <td class="icons-td">
+        <ion-icon class="fa-bicycle icons-size color-gray">
         </ion-icon> 
       </td>
-
-      <td style="width: 155px;">
-
-        <ion-list no-lines style="float: right;">
-          <div style="font-size: 20px; color: gray;">
+      <td class="icons-td-4">
+        <ion-list no-lines class="float-right">
+          <div class="color-gray icons-text-font-size">
             Mode
           </div>
-          <div style="font-size: 20px; font-weight: bold; color: black;">
+          <div class="icons-text-font-size color-black font-bold">
             Mountain Cross
           </div>
         </ion-list>
       </td>
-
       <td>
-
       </td>
-    
-      <td style="text-align: right; width: 100px;">
-        <ion-icon class="fa-recycle" style="font-size: 50px; color: rgb(52, 160, 15);">
-          
+      <td class="icons-td">
+        <ion-icon class="fa-recycle icons-size color-green-base">
         </ion-icon> 
-        
       </td>
-      <td style="width: 180px; padding-right: 35px;">
-        <ion-list no-lines style="float: right;">
-          <div style="font-size: 20px; color: gray;">
+      <td class="icons-td-5">
+        <ion-list no-lines class="float-right">
+          <div class="color-gray icons-text-font-size">
             Responsability
           </div>
-          <div style="font-size: 20px; font-weight: bold; color: rgb(52, 160, 15);">
+          <div class="icons-text-font-size color-green-base font-bold">
             Be Green!
           </div>
         </ion-list>
@@ -130,14 +117,14 @@
     </tr>
   </table>
 
-  <div style="margin-top: 20px; border: 1px solid gray;" margin>
+  <div class="div-help" margin>
     <ion-toolbar>
       <ion-title>Help</ion-title>
       <ion-buttons end>
         <button ion-button (click)="hide()">
-          <a class="button button-outline button-positive" style="margin-right: 20px; color: rgb(52, 160, 15);">{{ hideTitle }}</a>
-          <ion-icon *ngIf="hideHelp" ios="ios-arrow-round-up" md="md-arrow-round-up" style="color: rgb(52, 160, 15);"></ion-icon>
-          <ion-icon *ngIf="!hideHelp"ios="ios-arrow-round-down" md="md-arrow-round-down" style="color: rgb(52, 160, 15);"></ion-icon>
+          <a class="button button-outline button-positive color-green-base but-help">{{ hideTitle }}</a>
+          <ion-icon *ngIf="hideHelp" ios="ios-arrow-round-up" md="md-arrow-round-up" class="color-green-base"></ion-icon>
+          <ion-icon *ngIf="!hideHelp"ios="ios-arrow-round-down" md="md-arrow-round-down" class="color-green-base"></ion-icon>
         </button>
       </ion-buttons>
     </ion-toolbar>
@@ -146,10 +133,10 @@
       <ion-grid>
         <ion-row>
           <ion-col col-2>
-            <ion-icon class="fa-life-ring" style="font-size: 100px; color: gray;" margin></ion-icon>
+            <ion-icon class="fa-life-ring color-gray icon-help" margin></ion-icon>
           </ion-col>
           <ion-col col-10>
-            <label style="color: gray;">
+            <label class="color-gray">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               <br /><br />
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -171,97 +158,98 @@
         <ion-col padding col-4>
           <ion-list>
             <ion-item>
-              <ion-label style="font-weight: bold; color: black;" stacked>Full name</ion-label>
-              <ion-input type="text" name="fullname" (ionFocus)="focFullname = true" (ionBlur)="focFullname = false" style="border: 2px solid rgb(52, 160, 15);"></ion-input>
+              <ion-label class="color-black font-bold" stacked>Full name</ion-label>
+              <ion-input type="text" name="fullname" (ionFocus)="focFullname = true" (ionBlur)="focFullname = false" class="border-inputs"></ion-input>
             </ion-item>
-            <ion-item *ngIf="focFullname" style="color: gray;">
+            <ion-item *ngIf="focFullname" class="color-gray">
               Instructions to show on input focus
             </ion-item>
             <ion-item>
-              <ion-label style="font-weight: bold; color: black;" stacked>E-mail</ion-label>
-              <ion-input type="email" (ionFocus)="focEmail = true" (ionBlur)="focEmail = false" style="border: 2px solid rgb(52, 160, 15);"></ion-input>
+              <ion-label class="color-black font-bold" stacked>E-mail</ion-label>
+              <ion-input type="email" (ionFocus)="focEmail = true" (ionBlur)="focEmail = false" class="border-inputs"></ion-input>
             </ion-item>
-            <ion-item *ngIf="focEmail" style="color: gray;">
+            <ion-item *ngIf="focEmail" class="color-gray">
               Instructions to show on input focus
             </ion-item>
             <ion-item>
-              <ion-label style="font-weight: bold; color: black;" stacked>City</ion-label>
-              <ion-input type="text" name="city" (ionFocus)="focCity = true" (ionBlur)="focCity = false" style="border: 2px solid rgb(52, 160, 15);"></ion-input>
+              <ion-label class="color-black font-bold" stacked>City</ion-label>
+              <ion-input type="text" name="city" (ionFocus)="focCity = true" (ionBlur)="focCity = false" class="border-inputs"></ion-input>
             </ion-item>
-            <ion-item *ngIf="focCity" style="color: gray;">
+            <ion-item *ngIf="focCity" class="color-gray">
               Instructions to show on input focus
             </ion-item>
           </ion-list>
         </ion-col>
         <ion-col padding col-8>
           <div>
-            <label style="font-weight: bold;">Ride in group?</label>
-            <ion-grid radio-group style="margin-top: 5px;">
+            <label class="font-bold">Ride in group?</label>
+            <ion-grid radio-group class="radio-group">
               <ion-row>
-                <ion-col col-1 style="margin-top: 12px;">
+                <ion-col col-1 class="radio-cols">
                   <ion-radio color="secondary" value="always" checked></ion-radio>
                 </ion-col>
                 <ion-col col-2>
-                  <ion-label style="color: gray;">Always</ion-label>
+                  <ion-label class="color-gray">Always</ion-label>
                 </ion-col>
-                <ion-col col-1 style="margin-top: 12px;">
+                <ion-col col-1 class="radio-cols">
                   <ion-radio color="secondary" value="sometimes"></ion-radio>
                 </ion-col>
                 <ion-col col-2>
-                  <ion-label style="color: gray;">Sometimes</ion-label>
+                  <ion-label class="color-gray">Sometimes</ion-label>
                 </ion-col>
-                <ion-col col-1 style="margin-top: 12px;">
+                <ion-col col-1 class="radio-cols">
                   <ion-radio color="secondary" value="never" [disabled]="isDisabled"></ion-radio>
                 </ion-col>
                 <ion-col col-2>
-                  <ion-label style="color: gray;">Never</ion-label>
+                  <ion-label class="color-gray">Never</ion-label>
                 </ion-col>
               </ion-row>
             </ion-grid>
           </div>
-          <div style="margin-top: 10px;">
-            <label style="font-weight: bold;">Days of the week</label>
+
+          <div class="div-days-week">
+            <label class="font-bold">Days of the week</label>
             <ion-grid>
               <ion-row>
                 <ion-col>
                   <ion-item>
-                    <ion-label style="color: gray;">Sun</ion-label>
+                    <ion-label class="color-gray">Sun</ion-label>
                     <ion-checkbox color="secondary"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
-                    <ion-label style="color: gray;">Mon</ion-label>
+                    <ion-label class="color-gray">Mon</ion-label>
                     <ion-checkbox color="secondary"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
-                    <ion-label style="color: gray;">Tue</ion-label>
+                    <ion-label class="color-gray">Tue</ion-label>
                     <ion-checkbox color="secondary"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
-                    <ion-label style="color: gray;">Wed</ion-label>
+                    <ion-label class="color-gray">Wed</ion-label>
                     <ion-checkbox color="secondary"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
-                    <ion-label style="color: gray;">Thu</ion-label>
+                    <ion-label class="color-gray">Thu</ion-label>
                     <ion-checkbox color="secondary"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
-                    <ion-label style="color: gray;">Fri</ion-label>
+                    <ion-label class="color-gray">Fri</ion-label>
                     <ion-checkbox color="secondary"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
-                    <ion-label style="color: gray;">Sat</ion-label>
+                    <ion-label class="color-gray">Sat</ion-label>
                     <ion-checkbox color="secondary"></ion-checkbox>
                   </ion-item>
                 </ion-col>
@@ -270,8 +258,8 @@
           </div>
           <div>
             <ion-buttons end>
-              <button ion-button clear style="color: black; background-color: #F0F0F0;">Cancel</button>
-              <button ion-button (click)="addRow()" type="submit" style="background-color: rgb(52, 160, 15);">Save</button>
+              <button ion-button clear class="color-black back-color-gray-clear">Cancel</button>
+              <button ion-button (click)="addRow()" type="submit" class="back-color-green-base">Save</button>
             </ion-buttons>
           </div>
         </ion-col>
@@ -285,34 +273,34 @@
     </h1>
 
     <ion-grid>
-      <ion-row style="background-color: rgb(52, 160, 15);" padding>
+      <ion-row class="back-color-green-base" padding>
         <ion-col>
-          <ion-label style="color:white; font-weight: bold;">
+          <ion-label class="header-grid">
             Full name
           </ion-label>
         </ion-col>
         <ion-col>
-          <ion-label style="color:white; font-weight: bold;">
+          <ion-label class="header-grid">
             E-mail
           </ion-label>
         </ion-col>
         <ion-col>
-          <ion-label style="color:white; font-weight: bold;">
+          <ion-label class="header-grid">
             City
           </ion-label>
         </ion-col>
         <ion-col>
-          <ion-label style="color:white; font-weight: bold;">
+          <ion-label class="header-grid">
             Ride in group
           </ion-label>
         </ion-col>
         <ion-col>
-          <ion-label style="color:white; font-weight: bold;">
+          <ion-label class="header-grid">
             Days of the week
           </ion-label>
         </ion-col>
         <ion-col>
-          <ion-label style="color:white; font-weight: bold;">
+          <ion-label class="header-grid">
             Registration day
           </ion-label>
         </ion-col>
@@ -341,7 +329,7 @@
           
         </ion-col>
         <ion-col col-1>
-          <ion-icon *ngIf="row.iconVisible" class="fa-trash-o" (click)="removeLine(i)" style="float: center;"></ion-icon>
+          <ion-icon *ngIf="row.iconVisible" class="fa-trash-o float-center" (click)="removeLine(i)"></ion-icon>
         </ion-col>
       </ion-row>
     </ion-grid>
