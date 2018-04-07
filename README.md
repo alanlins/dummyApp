@@ -6,11 +6,11 @@ A dummy app made with ionic 3
   
 2. Install IonicFramework latest version on this link -> https://ionicframework.com/getting-started
   * I was use 3.20.0
-  ** npm install -g ionic
+  * npm install -g ionic
   
 3. Install Cordova (Used to build Android / IOS)
   * I was use 8.0.0
-  ** npm install -g cordova
+  * npm install -g cordova
   
 4. Execute the command to install the dependencies:
   * npm i or npm install
