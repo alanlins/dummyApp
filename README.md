@@ -12,7 +12,7 @@ A dummy app made with ionic 3
   * I'm using 8.0.0
   * npm install -g cordova
   
-4. Execute the command to install the dependencies:
+4. Clone the dummyApp in the folder of your choice and execute the command to install the dependencies:
   * npm i or npm install
 
 5. Command to build, start the local server, application execution and changes listening.
@@ -20,7 +20,8 @@ A dummy app made with ionic 3
   
   
 
-# OPTIONAL
+
+# Run in Android
 
 Its possible to compile and run this application in Android, you just need to have the android developer environment on the computer, plug a smartphone with android on the computer and enable the USB debug smartphone configuration and execute the command: 
   * ionic cordova run android
