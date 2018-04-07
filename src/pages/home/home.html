@@ -156,23 +156,23 @@
     <ion-grid>
       <ion-row>
         <ion-col padding col-4>
-          <ion-list>
+          <ion-list no-lines>
             <ion-item>
-              <ion-label class="color-black font-bold" stacked>Full name</ion-label>
+              <ion-label color="gray-dummy" class="font-bold" stacked>Full name</ion-label>
               <ion-input type="text" name="fullname" (ionFocus)="focFullname = true" (ionBlur)="focFullname = false" class="border-inputs"></ion-input>
             </ion-item>
             <ion-item *ngIf="focFullname" class="color-gray">
               Instructions to show on input focus
             </ion-item>
             <ion-item>
-              <ion-label class="color-black font-bold" stacked>E-mail</ion-label>
+              <ion-label color="gray-dummy" class="font-bold" stacked>E-mail</ion-label>
               <ion-input type="email" (ionFocus)="focEmail = true" (ionBlur)="focEmail = false" class="border-inputs"></ion-input>
             </ion-item>
             <ion-item *ngIf="focEmail" class="color-gray">
               Instructions to show on input focus
             </ion-item>
             <ion-item>
-              <ion-label class="color-black font-bold" stacked>City</ion-label>
+              <ion-label color="gray-dummy" class="font-bold" stacked>City</ion-label>
               <ion-input type="text" name="city" (ionFocus)="focCity = true" (ionBlur)="focCity = false" class="border-inputs"></ion-input>
             </ion-item>
             <ion-item *ngIf="focCity" class="color-gray">
@@ -186,19 +186,19 @@
             <ion-grid radio-group class="radio-group">
               <ion-row>
                 <ion-col col-1 class="radio-cols">
-                  <ion-radio color="secondary" value="always" checked></ion-radio>
+                  <ion-radio color="green-dummy" value="always" checked></ion-radio>
                 </ion-col>
                 <ion-col col-2>
                   <ion-label class="color-gray">Always</ion-label>
                 </ion-col>
                 <ion-col col-1 class="radio-cols">
-                  <ion-radio color="secondary" value="sometimes"></ion-radio>
+                  <ion-radio color="green-dummy" value="sometimes"></ion-radio>
                 </ion-col>
                 <ion-col col-2>
                   <ion-label class="color-gray">Sometimes</ion-label>
                 </ion-col>
                 <ion-col col-1 class="radio-cols">
-                  <ion-radio color="secondary" value="never" [disabled]="isDisabled"></ion-radio>
+                  <ion-radio color="green-dummy" value="never" [disabled]="isDisabled"></ion-radio>
                 </ion-col>
                 <ion-col col-2>
                   <ion-label class="color-gray">Never</ion-label>
@@ -214,43 +214,43 @@
                 <ion-col>
                   <ion-item>
                     <ion-label class="color-gray">Sun</ion-label>
-                    <ion-checkbox color="secondary"></ion-checkbox>
+                    <ion-checkbox color="green-dummy"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
                     <ion-label class="color-gray">Mon</ion-label>
-                    <ion-checkbox color="secondary"></ion-checkbox>
+                    <ion-checkbox color="green-dummy"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
                     <ion-label class="color-gray">Tue</ion-label>
-                    <ion-checkbox color="secondary"></ion-checkbox>
+                    <ion-checkbox color="green-dummy"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
                     <ion-label class="color-gray">Wed</ion-label>
-                    <ion-checkbox color="secondary"></ion-checkbox>
+                    <ion-checkbox color="green-dummy"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
                     <ion-label class="color-gray">Thu</ion-label>
-                    <ion-checkbox color="secondary"></ion-checkbox>
+                    <ion-checkbox color="green-dummy"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
                     <ion-label class="color-gray">Fri</ion-label>
-                    <ion-checkbox color="secondary"></ion-checkbox>
+                    <ion-checkbox color="green-dummy"></ion-checkbox>
                   </ion-item>
                 </ion-col>
                 <ion-col>
                   <ion-item>
                     <ion-label class="color-gray">Sat</ion-label>
-                    <ion-checkbox color="secondary"></ion-checkbox>
+                    <ion-checkbox color="green-dummy"></ion-checkbox>
                   </ion-item>
                 </ion-col>
               </ion-row>
@@ -259,7 +259,7 @@
           <div>
             <ion-buttons end>
               <button ion-button clear class="color-black back-color-gray-clear">Cancel</button>
-              <button ion-button (click)="addRow()" type="submit" class="back-color-green-base">Save</button>
+              <button ion-button (click)="addRow()" type="submit" color="green-dummy">Save</button>
             </ion-buttons>
           </div>
         </ion-col>

@@ -121,4 +121,12 @@ page-home {
     .div-days-week {
         margin-top: 10px;
     }
+
+    .list-md .item-input:last-child {
+        border-bottom: none;
+    }
+
+    .item-input-has-focus .label-md[stacked], .input-has-focus .label-md[stacked], .item-input-has-focus .label-md[floating], .input-has-focus .label-md[floating] {
+        color: gray;
+    }
 }
